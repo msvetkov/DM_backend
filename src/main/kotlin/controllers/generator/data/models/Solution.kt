@@ -1,4 +1,4 @@
-package controllers.generators.models
+package controllers.generator.data.models
 
 import com.google.gson.annotations.Expose
 

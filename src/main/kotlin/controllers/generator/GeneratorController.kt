@@ -7,8 +7,8 @@ import controllers.generator.data.getSolution
 import controllers.generator.responses.GeneratorsOkResponse
 import controllers.generator.responses.SolutionErrorResponse
 import controllers.generator.responses.SolutionOkResponse
-import controllers.generators.models.Generator
-import controllers.generators.models.Solution
+import controllers.generator.data.models.Generator
+import controllers.generator.data.models.Solution
 import daggerServerComponent
 import spark.Spark
 import javax.inject.Inject
@@ -20,6 +20,7 @@ class GeneratorController : IBaseController {
 
     init {
         daggerServerComponent.inject(this)
+
     }
 
     override fun start() {
@@ -36,7 +37,7 @@ class GeneratorController : IBaseController {
 
     private fun initGetTaskRequest() {
         Spark.get("/get_task", { request, response ->
-            
+
             val id  = request.queryParams("id")?.toInt() ?:
                 return@get SolutionErrorResponse("No generator's ID parameter")
 

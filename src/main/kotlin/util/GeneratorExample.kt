@@ -1,9 +1,8 @@
 package util
 
-import controllers.generators.models.Solution
+import controllers.generator.data.models.Solution
 import java.lang.StringBuilder
 import java.util.*
-
 
 
 // Упращенный пример генератора для тестирования сервера, пока не готова интеграция с GraalVM
