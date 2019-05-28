@@ -1,5 +1,5 @@
-group 'com.lotuss'
-version '1.1'
+group 'com.zip'
+version '1.2'
 
 buildscript {
     ext.kotlin_version = '1.3.30'
@@ -33,6 +33,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+//функция которая собирает .jar файл
+
 jar {
     manifest {
         attributes 'Implementation-Title': 'Spark-based REST',
@@ -64,15 +66,4 @@ task createProperties {
         def file = new File("$projectDir/src/main/resources/version.txt")
         file.write(version)
     }
-}
-
-task fatJar(type: Jar) {
-    manifest {
-        attributes 'Implementation-Title': 'Gradle Jar File Example',
-                'Implementation-Version': version,
-                'Main-Class': 'com.mkyong.DateUtils'
-    }
-    baseName = project.name + '-all'
-    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
-    with jar
 }

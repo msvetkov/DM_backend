@@ -1,10 +1,8 @@
 package controllers.generator.data
-
 import controllers.generator.data.models.Solution
+import path
 import java.io.BufferedReader
 import java.io.InputStreamReader
-
-const val PATH_TO_GENERATORS = "src/main/resources/generators/"
 
 //чтобы добавить новый генератор сначала требуется добавить title и id в файл generators.json в папке resources
 // затем обработать его генерацию здесь
@@ -14,7 +12,7 @@ private fun generate(command: String, fileName: String, preSeedCommand: String?,
         InputStreamReader(
             Runtime.getRuntime()
                 .exec(
-                    "$command $PATH_TO_GENERATORS$fileName ${preSeedCommand ?: ""} $seed ${postSeedCommand ?: ""}"
+                    "$command $path/$fileName ${preSeedCommand ?: ""} $seed ${postSeedCommand ?: ""}"
                 )
                 .inputStream
         )

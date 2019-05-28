@@ -6,7 +6,10 @@ val daggerServerComponent = DaggerServerComponent
     .builder()
     .build()!!
 
-fun main() {
+lateinit var path: String
+
+fun main(args: Array<String>) {
+    path = args[0]
     port(9000)
     GeneratorController().start()
 }
