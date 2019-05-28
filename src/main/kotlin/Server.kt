@@ -1,12 +1,12 @@
 import controllers.generator.GeneratorController
 import di.DaggerServerComponent
+import spark.Spark.port
 
 val daggerServerComponent = DaggerServerComponent
     .builder()
-    .build()
+    .build()!!
 
-
-fun main(args: Array<String>) {
-    val controllers = listOf(GeneratorController())
-    controllers.forEach{ it.start() }
+fun main() {
+    port(9000)
+    GeneratorController().start()
 }

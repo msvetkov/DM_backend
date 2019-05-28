@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f39ebb9-7ff8-4cce-bea5-d3c026858b1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -13,19 +12,33 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/server_dm.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/server_dm.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/ServerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/ServerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/IBaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/IBaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/responses/BadRequestErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/responses/BadRequestErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/responses/BaseErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/responses/BaseErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/responses/BaseOkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/responses/BaseOkResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/responses/BaseResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/base/responses/BaseResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$initGetGeneratorsRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$initGetGeneratorsRequest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$initGetGeneratorsRequest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$initGetGeneratorsRequest$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$initGetTaskRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$initGetTaskRequest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$initGetTaskRequest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$initGetTaskRequest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$sam$spark_ResponseTransformer$0.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController$sam$spark_ResponseTransformer$0.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorsObj$startCGenerator$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorsObj$startPyGen$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/GeneratorsObj.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/data/Data_managerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/data/Data_managerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/data/models/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/data/models/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/data/models/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/data/models/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/responses/GeneratorsOkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/responses/GeneratorsOkResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/responses/SolutionErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/responses/SolutionErrorResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/responses/SolutionOkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generator/responses/SolutionOkResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generators/models/Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/controllers/generators/models/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/util/GeneratorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/util/GeneratorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/di/GsonModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/di/GsonModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/di/ServerComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/di/ServerComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/util/GeneratorExample.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
@@ -88,25 +101,31 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/data-container-format-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/format-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/gradle-format-version.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
@@ -114,25 +133,24 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
@@ -147,42 +165,76 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/data-container-format-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/format-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/gradle-format-version.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/data/Data_managerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/data/Data_managerKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/responses/GeneratorsOkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/responses/GeneratorsOkResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/responses/SolutionOkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/responses/SolutionOkResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generators/models/Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generators/models/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/util/GeneratorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/util/GeneratorExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/ServerKt.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/ServerKt.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/IBaseController.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/IBaseController.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BadRequestErrorResponse.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BadRequestErrorResponse.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseErrorResponse.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseErrorResponse.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseOkResponse.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseOkResponse.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseResponse.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseResponse.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/GeneratorController.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/GeneratorController.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/Data_managerKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/Data_managerKt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/Data_managerKt.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/Data_managerKt.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/GeneratorsOkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/GeneratorsOkResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/GeneratorsOkResponse.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/GeneratorsOkResponse.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionErrorResponse.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionErrorResponse.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionOkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionOkResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionOkResponse.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionOkResponse.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generators/models/Generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generators/models/Generator.kapt_metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generators/models/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generators/models/Solution.kapt_metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/di/GsonModule.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/di/GsonModule.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/di/ServerComponent.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/di/ServerComponent.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/util/GeneratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/util/GeneratorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/util/GeneratorExample.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/util/GeneratorExample.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/generators.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/generators.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/generators_cpp/main.bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/generatots_python/task_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/META-INF/server_dm.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/META-INF/server_dm.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/ServerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/ServerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/base/IBaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/base/responses/BadRequestErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/base/responses/BaseErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/base/responses/BaseOkResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/base/responses/BaseResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/GeneratorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/GeneratorsObj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/data/Data_managerKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/data/models/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/data/models/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/responses/GeneratorsOkResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/responses/SolutionErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/controllers/generator/responses/SolutionOkResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/di/GsonModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/di/GsonModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/di/ServerComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/di/ServerComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/main/util/GeneratorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/ServerKt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/ServerKt.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/IBaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/IBaseController.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BadRequestErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BadRequestErrorResponse.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseErrorResponse.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseOkResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseOkResponse.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/base/responses/BaseResponse.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/GeneratorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/GeneratorController.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/GeneratorsObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/GeneratorsObj.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/Data_managerKt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/Data_managerKt.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/models/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/models/Generator.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/models/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/data/models/Solution.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/GeneratorsOkResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/GeneratorsOkResponse.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionErrorResponse.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionOkResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/controllers/generator/responses/SolutionOkResponse.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/di/GsonModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/di/GsonModule.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/di/ServerComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/di/ServerComponent.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/error/NonExistentClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/util/GeneratorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/kapt3/stubs/main/util/GeneratorExample.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Server.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Server.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/base/IBaseController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/base/IBaseController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorsObj.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorsObj.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/data_manager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/data_manager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Generator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Generator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Solution.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/GeneratorsOkResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/GeneratorsOkResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/SolutionOkResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/SolutionOkResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/GeneratorExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/util/GeneratorExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/GeneratorExample.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generators.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generators.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generators_cpp/main.bc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generators/a_plus_b_gen.bc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatots_python/task_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generators/task_generator.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -220,31 +272,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorController.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/base/IBaseController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            <state>
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/data_manager.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generators.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+            <state relative-caret-position="165">
+              <caret line="11" column="77" lean-forward="true" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../graalvm/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="2243" column="6" lean-forward="true" selection-start-line="2243" selection-start-column="6" selection-end-line="2243" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Server.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#36#208#0" expanded="true" />
+                <element signature="e#0#104#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/SolutionErrorResponse.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generators/a_plus_b_gen.bc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -252,60 +322,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorsObj.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="176">
+              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="86" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/data_manager.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <element signature="e#36#148#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../graalvm/src.zip!/java/io/BufferedReader.java">
+        <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.30/9c981bc2a33066176e605b58a84170b8116e9d8c/kotlin-stdlib-common-1.3.30-sources.jar!/kotlin/text/Strings.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
-              <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
-              <folding>
-                <element signature="e#4008#4009#0" expanded="true" />
-                <element signature="e#4055#4056#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/GeneratorsOkResponse.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/GeneratorExample.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#14#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/SolutionOkResponse.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Generator.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="375" column="18" selection-start-line="375" selection-start-column="18" selection-end-line="375" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -315,6 +354,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.7.2/d73bdc786a4b84b5bd2a26206c17c84277e3ccce/spark-core-2.7.2-sources.jar!/spark/http/matching/MatcherFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
             </state>
           </provider>
         </entry>
@@ -340,7 +388,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/kotlin/di/GsonModule.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/di/ServerComponent.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/models/Generator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/models/Solution.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/manager/GeneratorsManager.kt" />
@@ -351,16 +398,12 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/manager.kt" />
         <option value="$PROJECT_DIR$/src/test/java/controllers/generator/data/Data_managerKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/java/controllers/generator/data/Data_managerKtTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/generators.json" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Solution.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Generator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/CpartPlusGeneratot.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/cpart_a_plus_b_gen/CpartPlusGeneratot.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/util/GeneratorExample.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/cpart_a_plus_b_gen/CpartPlusGenerator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen_cpart_a_plus_b_gen/CpartPlusGenerator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/work_with_gen_cpart_a_plus_b_gen/CpartPlusGenerator.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/Server.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/work_with_gen_cpart_a_plus_b_gen/CpartGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/work_with_gen_cpart_a_plus_b_gen/CpartSumGenerator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/generators/CpartSumGenerator.kt" />
@@ -368,6 +411,15 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/generators/CpartSumGenerator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/CpartSumGenerator.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/generatots_python/task_generator.py" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/util/GeneratorExample.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/generators.json" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Generator.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/Server.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/CppGenerator.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/PythonGenerator.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/SimpleGenerator.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/controllers/base/IBaseController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorsObj.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/data_manager.kt" />
@@ -388,8 +440,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,27 +452,6 @@
             <path>
               <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
               <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -428,6 +459,51 @@
               <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
@@ -442,45 +518,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generators_cpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DM_backend" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generatots_python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="graal-sdk.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="graal-sdk.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="graalvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server_dm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="graal-sdk.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="graalvm" type="462c0819:PsiDirectoryNode" />
-              <item name="polyglot" type="462c0819:PsiDirectoryNode" />
+              <item name="generators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -495,9 +533,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/generatots_python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -515,6 +554,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/generators" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/cpart_a_plus_b_gen" />
+      <recent name="C:\Users\Максим\IdeaProjects\server_dm\src\main\kotlin\controllers\generator\data" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="controllers.generator" />
     </key>
@@ -522,10 +566,6 @@
       <recent name="$PROJECT_DIR$/src/main/resources/generatots_python" />
       <recent name="$PROJECT_DIR$/src/main/resources/generators_cpp" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/cpart_a_plus_b_gen" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/cpart_a_plus_b_gen" />
-      <recent name="C:\Users\Максим\IdeaProjects\server_dm\src\main\kotlin\controllers\generator\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -574,12 +614,17 @@
       <workItem from="1557682826030" duration="6237000" />
       <workItem from="1557750858735" duration="2008000" />
       <workItem from="1557757174668" duration="3990000" />
-      <workItem from="1557823417291" duration="3533000" />
+      <workItem from="1557823417291" duration="3789000" />
+      <workItem from="1558897627410" duration="1206000" />
+      <workItem from="1558947352086" duration="3416000" />
+      <workItem from="1558951254794" duration="3786000" />
+      <workItem from="1558978564442" duration="2143000" />
+      <workItem from="1559030674801" duration="8646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27132000" />
+    <option name="totallyTimeSpent" value="46585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -594,7 +639,7 @@
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28863636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -603,8 +648,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986014" visible="true" weight="0.51724136" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993007" weight="0.39971346" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986014" weight="0.2594417" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993007" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993007" weight="0.32840723" />
@@ -615,7 +660,6 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32840723" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
-      <window_info anchor="right" id="Kotlin Bytecode" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -627,6 +671,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="SciView" order="10" weight="0.32954547" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="11" weight="0.32954547" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,39 +710,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/bb8aafdddb6c895ba1a9646eddabdb844eb544fb/kotlin-stdlib-common-1.2.61-sources.jar!/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1489" column="34" selection-start-line="1489" selection-start-column="34" selection-end-line="1489" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/base/IBaseController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/work_with_gen_cpart_a_plus_b_gen/main.bc" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/work_with_gen_cpart_a_plus_b_gen/CpartPlusGenerator.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Server.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/work_with_gen_cpart_a_plus_b_gen/main.cpp" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/work_with_gen/work_with_gen_cpart_a_plus_b_gen/CpartGenerator.java" />
     <entry file="jar://$PROJECT_DIR$/../graalvm/jre/lib/boot/graal-sdk.src.zip!/org/graalvm/polyglot/Context.java">
@@ -714,31 +728,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/generators/PythonSumGenerator.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/generators/PythonSumGenerator.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/GeneratorsOkResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatots_python/task_generator.py">
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/SolutionErrorResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generators.json">
+    <entry file="jar://$PROJECT_DIR$/../graalvm/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="1290">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="e#4055#4056#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generators_cpp/main.bc">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/SolutionOkResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.61/bb8aafdddb6c895ba1a9646eddabdb844eb544fb/kotlin-stdlib-common-1.2.61-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="1485" column="3" lean-forward="true" selection-start-line="1485" selection-start-column="3" selection-end-line="1485" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -751,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/di/GsonModule.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="240">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="e#12#148#0" expanded="true" />
@@ -759,41 +788,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/GeneratorExample.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generators/NODgenerator.bc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generators_cpp/task.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/Project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generators/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generators/main.bc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generators/task_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/CppGenerator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#14#113#0" expanded="true" />
+            <element signature="e#43#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/GeneratorsOkResponse.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/PythonGenerator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="63" />
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#43#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/SolutionErrorResponse.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Generator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/GeneratorExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/responses/SolutionOkResponse.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/SimpleGenerator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#43#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        <state relative-caret-position="150">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#31#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.7.2/d73bdc786a4b84b5bd2a26206c17c84277e3ccce/spark-core-2.7.2-sources.jar!/spark/ResponseTransformerRouteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.7.2/d73bdc786a4b84b5bd2a26206c17c84277e3ccce/spark-core-2.7.2-sources.jar!/spark/http/matching/Routes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.7.2/d73bdc786a4b84b5bd2a26206c17c84277e3ccce/spark-core-2.7.2-sources.jar!/spark/http/matching/MatcherFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/base/IBaseController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generators.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="77" lean-forward="true" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorsObj.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.30/9c981bc2a33066176e605b58a84170b8116e9d8c/kotlin-stdlib-common-1.3.30-sources.jar!/kotlin/text/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="375" column="18" selection-start-line="375" selection-start-column="18" selection-end-line="375" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generators/a_plus_b_gen.bc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../graalvm/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2243" column="6" lean-forward="true" selection-start-line="2243" selection-start-column="6" selection-end-line="2243" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -804,37 +955,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/models/Generator.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Server.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../graalvm/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#4008#4009#0" expanded="true" />
-            <element signature="e#4055#4056#0" expanded="true" />
+            <element signature="e#0#104#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/GeneratorsObj.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/controllers/generator/data/data_manager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        <state relative-caret-position="300">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
-            <element signature="e#36#208#0" expanded="true" />
+            <element signature="e#36#148#0" expanded="true" />
           </folding>
         </state>
       </provider>

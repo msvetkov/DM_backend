@@ -2,7 +2,6 @@ package controllers.generator
 
 import com.google.gson.Gson
 import controllers.base.IBaseController
-import controllers.generator.data.generators
 import controllers.generator.data.getSolution
 import controllers.generator.responses.GeneratorsOkResponse
 import controllers.generator.responses.SolutionErrorResponse
@@ -20,41 +19,38 @@ class GeneratorController : IBaseController {
 
     init {
         daggerServerComponent.inject(this)
-
     }
 
     override fun start() {
-        getGeneratorsFromFile()
         initGetGeneratorsRequest()
         initGetTaskRequest()
     }
 
     private fun initGetGeneratorsRequest() {
-        Spark.get("/get_generators", { request, response ->
-            return@get GeneratorsOkResponse(generators ?: listOf())
+        Spark.post("/get_generators", { _, _ ->
+            return@post GeneratorsOkResponse(getGeneratorsFromFile())
         }, gson::toJson)
     }
 
     private fun initGetTaskRequest() {
-        Spark.get("/get_task", { request, response ->
+        Spark.post("/get_task", { request, _ ->
 
-            val id  = request.queryParams("id")?.toInt() ?:
-                return@get SolutionErrorResponse("No generator's ID parameter")
+            val id =
+                request.queryParams("id")?.toInt() ?: return@post SolutionErrorResponse("No generator's ID parameter")
 
-            val seed: Long = request.queryParams("seed")?.toLong() ?:
-                return@get SolutionErrorResponse("No seed parameter")
+            val seed: Long =
+                request.queryParams("seed")?.toLong() ?: return@post SolutionErrorResponse("No seed parameter")
 
-            val number: Int = request.queryParams("number")?.toInt() ?: 0
 
-            val solution: Solution = getSolution(id, seed, number) ?:
-                return@get SolutionErrorResponse("Generator's ID not found")
+            val solution =
+                getSolution(id, seed) ?: return@post SolutionErrorResponse("Generator's ID not found")
 
-            return@get SolutionOkResponse(solution)
+            return@post SolutionOkResponse(solution)
         }, gson::toJson)
     }
 
-    private fun getGeneratorsFromFile() {
-        val generatorText = String::class.java.getResource("/generators.json").readText()
-        generators = gson.fromJson(generatorText, Array<Generator>::class.java).toList()
-    }
+    private fun getGeneratorsFromFile() = gson.fromJson(
+        String::class.java.getResource("/generators.json").readText(),
+        Array<Generator>::class.java
+    ).toList()
 }
