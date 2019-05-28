@@ -1,27 +1,25 @@
 package controllers.generator
 
 import com.google.gson.Gson
-import controllers.base.IBaseController
 import controllers.generator.data.getSolution
+import controllers.generator.data.models.Generator
 import controllers.generator.responses.GeneratorsOkResponse
 import controllers.generator.responses.SolutionErrorResponse
 import controllers.generator.responses.SolutionOkResponse
-import controllers.generator.data.models.Generator
-import controllers.generator.data.models.Solution
-import daggerServerComponent
+import di.DaggerServerComponent
 import spark.Spark
 import javax.inject.Inject
 
-class GeneratorController : IBaseController {
+class GeneratorController {
+
+    init {
+        DaggerServerComponent.create().inject(this)
+    }
 
     @Inject
     lateinit var gson: Gson
 
-    init {
-        daggerServerComponent.inject(this)
-    }
-
-    override fun start() {
+    fun start() {
         initGetGeneratorsRequest()
         initGetTaskRequest()
     }
@@ -34,7 +32,6 @@ class GeneratorController : IBaseController {
 
     private fun initGetTaskRequest() {
         Spark.post("/get_task", { request, _ ->
-
             val id =
                 request.queryParams("id")?.toInt() ?: return@post SolutionErrorResponse("No generator's ID parameter")
 

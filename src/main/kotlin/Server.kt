@@ -1,12 +1,7 @@
 import controllers.generator.GeneratorController
-import di.DaggerServerComponent
 import spark.Spark.port
 
-val daggerServerComponent = DaggerServerComponent
-    .builder()
-    .build()!!
-
-lateinit var path: String
+lateinit var path: String //переменная для передачи пути до папки с генераторами
 
 fun main(args: Array<String>) {
     path = args[0]

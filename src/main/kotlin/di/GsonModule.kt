@@ -11,11 +11,10 @@ class GsonModule {
 
     @Singleton
     @Provides
-    fun provideGson(): Gson {
-        return GsonBuilder()
-            .excludeFieldsWithoutExposeAnnotation()
-            .disableHtmlEscaping()
-            .setPrettyPrinting()
-            .create()
-    }
+    fun provideGson(): Gson = GsonBuilder()
+        .excludeFieldsWithoutExposeAnnotation()
+        .disableHtmlEscaping()
+        .setPrettyPrinting()
+        .create()
+
 }
