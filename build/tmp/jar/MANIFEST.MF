@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Spark-based REST
+Implementation-Version: 1.1
+Main-Class: ServerKt
+

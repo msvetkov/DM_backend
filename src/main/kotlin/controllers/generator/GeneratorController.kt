@@ -41,7 +41,6 @@ class GeneratorController : IBaseController {
             val seed: Long =
                 request.queryParams("seed")?.toLong() ?: return@post SolutionErrorResponse("No seed parameter")
 
-
             val solution =
                 getSolution(id, seed) ?: return@post SolutionErrorResponse("Generator's ID not found")
 
