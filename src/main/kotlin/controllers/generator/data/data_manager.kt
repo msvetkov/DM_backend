@@ -46,16 +46,18 @@ fun getSolution(id: Int, seed: Long) = when (id) {
     3 -> {
         generate("lli", "NODgenerator.bc", "0", seed, null).run {
             Solution(
-                problem = substringBefore("=================="),
-                answer = substringAfter("==================")
+                problem = substringBefore(":") + ":" + "\n" + '$' + "f(x)" + substringAfter("f(x)").substringBefore("\ng(x)") + '$' +
+                        "\n" + '$' + "g(x)" + substringAfter("g(x)").substringBefore("\n==================") + '$',
+                answer = '$' + substringAfter("==================") + '$'
             )
         }
     }
     4 -> {
         generate("lli", "NODgenerator.bc", "1", seed, null).run {
             Solution(
-                problem = substringBefore("=================="),
-                answer = substringAfter("==================")
+                problem = substringBefore(":") + ":" + "\n" + '$' + "f(x)" + substringAfter("f(x)").substringBefore("\ng(x)") + '$' +
+                        "\n" + '$' + "g(x)" + substringAfter("g(x)").substringBefore("\n==================") + '$',
+                answer = '$' + substringAfter("==================") + '$'
             )
         }
     }
